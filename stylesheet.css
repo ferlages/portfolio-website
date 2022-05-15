@@ -1,0 +1,458 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    background-color: #bfdbf7;
+    height: 140px;
+    width: 100%;
+    position: fixed;
+}
+
+#toptitle {
+    display: flex;
+    align-items: center;
+    color: #022B3A;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+#toptitle img {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#toptitle h1 {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+nav ul li:hover {
+    background-color: gray;
+}
+
+nav ul li {
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    color: #022B3A;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #022B3A;
+}
+
+#whoiam {
+    min-height: 40vh;
+    padding: 70px 70px;
+    margin-top: 100px;
+    background-color: white;
+    font-weight: bold;
+    color: #022B3A;
+    font-weight: bold;
+    scroll-margin-block-start: 100px;
+}
+
+.line {
+    width: 85%;
+    border-color: #fb8500;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fb8500;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.sectiontitle {
+    font-family: sans-serif;
+    color: #022B3A;
+}
+
+.sectionparagraph {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionparagraph div {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: space-evenly;
+    flex-direction: column;
+}
+
+p {
+    font-family: sans-serif;
+    color: #022B3A;
+}
+
+.sectionparagraph div p {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#fernandapic {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+#experience {
+    background-color: white;
+    min-height: 70vh;
+    padding: 70px;
+    margin-top: 100px;
+    font-weight: bold;
+    color: #022B3A;
+    font-weight: bold;
+    scroll-margin-block-start: 100px;
+}
+
+#mercurypic {
+    width: 250px;
+    height: 190px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+#vinmarpic {
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    object-position: top;
+    margin-right: 20px;
+}
+
+#atvospic {
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    object-position: top;
+    margin-right: 20px;
+}
+
+#folhapic {
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    object-position: top;
+    margin-right: 20px;
+}
+
+#bnpparibaspic {
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    object-position: top;
+    margin-right: 20px;
+}
+
+#education {
+    background-color: white;
+    min-height: 70vh;
+    padding: 70px;
+    font-weight: bold;
+    color: #022B3A;
+    font-weight: bold;
+    scroll-margin-block-start: 100px;
+}
+
+#tudpic {
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    object-position: top;
+    margin-right: 20px;
+}
+
+#DHpic {
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    object-position: top;
+    margin-right: 20px;
+}
+
+#PUCpic {
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    object-position: top;
+    margin-right: 20px;
+}
+
+#skills {
+    background-color: white;
+    padding: 70px;
+    scroll-margin-block-start: 100px;
+}
+
+#skillslist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skillsitem {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #FFB703;
+    color: black;
+}
+
+#contact {
+    background-color: white;
+    padding: 70px;
+    scroll-margin-block-start: 100px;
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+label {
+    font-family: sans-serif;
+    color: #022B3A;
+}
+
+textarea {
+    width: 82%;
+    margin-top: 5px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: #022B3A;
+    color: white;
+    border-radius: 10px;
+}
+
+section {
+    width: 100vw;
+}
+
+aside {
+    background-color: #ffb803;
+    width: 20vw;
+    position: fixed;
+    right: 0;
+    top: 140px;
+    height: 90vh;
+}
+
+aside h2 {
+    font-family: sans-serif;
+    color: #1f7a8c;
+    text-align: center;
+    margin-top: 30px;
+}
+
+aside ul {
+    padding: 10px 30px;
+    height: 70%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+footer {
+    background-color: #022B3A;
+    color: white;
+    width: 80%;
+    padding: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+i {
+    margin: 35px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white
+}
+
+#copyright {
+    font-size: medium;
+    margin-top: 18px;
+}
+
+#content {
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+    #hamburger {
+        display: none;
+    }
+    #summarymobile {
+        display: none;
+    }
+    form {
+        width: 60%;
+    }
+}
+
+
+/* for mobile */
+
+@media (max-width: 768px) {
+    aside {
+        display: none
+    }
+    .sectionparagraph div {
+        width: 100%;
+    }
+    html {
+        width: 100%;
+    }
+    body {
+        position: relative;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    header {
+        background-color: bfdbf7;
+        height: 140px;
+        position: fixed;
+        display: flex;
+    }
+    #summarymobile {
+        min-height: 10vh;
+        min-width: 500px;
+        padding: 70px;
+        padding-bottom: 0px;
+        margin-top: 100px;
+        font-family: sans-serif;
+    }
+    #toptitle {
+        display: flex;
+        align-items: center;
+        color: #022B3A;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-bottom: 10px;
+    }
+    nav {
+        display: none;
+    }
+    footer {
+        background-color: #022B3A;
+        color: white;
+        width: 500px;
+        padding: 50px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionparagraph div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: space-evenly;
+        flex-direction: column;
+    }
+    #whoiam {
+        min-height: 60vh;
+        padding: 0px 70px;
+        background-color: white;
+        font-weight: bold;
+        color: #022B3A;
+        font-weight: bold;
+        scroll-margin-block-start: 100px;
+    }
+    section {
+        width: 100%;
+    }
+    p,
+    img {
+        width: 100%;
+        margin: 20px auto;
+    }
+    #hamburger {
+        background: #bfdbf7;
+        width: 50px;
+        height: 50;
+        border-radius: 20px;
+    }
+    #menu {
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        background-color: #bfdbf7;
+        border: 2px solid #022B3A;
+        width: 300px;
+        min-height: 200px;
+        padding: 20px;
+    }
+    #menu ul {
+        list-style: none;
+    }
+    #logo {
+        margin-right: 10px;
+    }
+    #menu ul li {
+        margin: 20px;
+        text-align: center;
+        background: #022B3A;
+        padding: 12px;
+        font-family: sans-serif;
+    }
+    #menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+    }
+}
